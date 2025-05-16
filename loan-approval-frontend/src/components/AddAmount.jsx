@@ -13,18 +13,18 @@ alert('Error adding amount');
 }
 };
 return (
-    <div>
-        <form onSubmit={handleSubmit}>
-            <h2>Add Amount</h2>
-            <input
-                type="number"
-                placeholder="Enter amount"
-                value={amount}
-                onChange={e => setAmount(e.target.value)}
-                required
-            />
-        </form>
-        <button type="submit">Add</button>
-    </div>
+<div>
+<form onSubmit={handleSubmit}>
+<h2>Add Amount</h2>
+<input
+type="number"
+placeholder="Enter amount"
+value={amount}
+onChange={e => setAmount(e.target.value)}
+required
+/>
+</form>
+<button type="submit">Add</button>
+</div>
 );
 }

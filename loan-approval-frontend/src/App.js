@@ -6,7 +6,7 @@ import WithdrawAmount from './components/WithdrawAmount';
 import ApplyLoan from './components/ApplyLoan';
 import ScoreValidation from './components/ScoreValidation';
 import HistoryAnalysis from './components/HistoryAnalysis';
-import HomePage from './pages/Homepage';
+import HomePage from './pages/HomePage';
 function App() {
 return (
 <Routes>

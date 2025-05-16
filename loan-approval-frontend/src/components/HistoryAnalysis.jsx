@@ -11,8 +11,9 @@ setTransactions(res.data);
 console.error(err);
 }
 };
-}, []);
+
 fetchHistory();
+}, []);
 return (
 <div>
 <ul>
